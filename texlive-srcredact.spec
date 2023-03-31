@@ -1,6 +1,6 @@
 Name:		texlive-srcredact
 Version:	38710
-Release:	1
+Release:	2
 Summary:	A tool for redacting sources
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/srcredact
