@@ -3,7 +3,7 @@ Version:	38710
 Release:	2
 Summary:	A tool for redacting sources
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/srcredact
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/srcredact
 License:	gpl2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/srcredact.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/srcredact.doc.r%{version}.tar.xz
