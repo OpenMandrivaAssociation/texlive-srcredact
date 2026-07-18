@@ -1,5 +1,6 @@
 %global tl_name srcredact
 %global tl_revision 38710
+%global tl_bin_links srcredact:%{_texmfdistdir}/scripts/srcredact/srcredact.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(srcredact.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 This package provides a tool to keep a master source, consisting of
